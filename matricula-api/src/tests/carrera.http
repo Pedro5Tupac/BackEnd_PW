@@ -1,0 +1,35 @@
+GET http://localhost:8080/imagenesproductos/1
+
+####
+
+
+POST https://api-progra-h9esdegcdzeebjd4.eastus2-01.azurewebsites.net/imagenesproductos
+Content-Type: application/json
+
+ 
+    
+
+{
+      
+"id_producto": 1,
+  "url": "https://gordo.blob.core.windows.net/imagenes/Producto1-4.jpg"
+  
+}
+
+
+
+###
+
+PUT https://api-progra-h9esdegcdzeebjd4.eastus2-01.azurewebsites.net/imagenesproductos/128
+Content-Type: application/json
+
+{
+        
+        "estado": "activo"
+            
+}
+
+####
+
+DELETE https://api-progra-h9esdegcdzeebjd4.eastus2-01.azurewebsites.net/imagenesproductos/129
+
